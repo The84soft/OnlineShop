@@ -37,6 +37,24 @@ public class Computer implements Serializable{
         this.updateAt = updateAt;
     }
 
+    public Computer(int id, String version, String ram, String disk, String screenWidth, String type, String userType, String des, String advantages, String defect, int deleted, Date createAt, Date updateAt) {
+        this.id = id;
+        this.version = version;
+        this.ram = ram;
+        this.disk = disk;
+        this.screenWidth = screenWidth;
+        this.type = type;
+        this.userType = userType;
+        this.des = des;
+        this.advantages = advantages;
+        this.defect = defect;
+        this.deleted = deleted;
+        this.createAt = createAt;
+        this.updateAt = updateAt;
+    }
+    
+    
+
     public int getId() {
         return id;
     }
